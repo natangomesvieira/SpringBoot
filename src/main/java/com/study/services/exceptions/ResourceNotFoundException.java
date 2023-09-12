@@ -1,10 +1,10 @@
 package com.study.services.exceptions;
 
-public class EntityNotFoundException extends RuntimeException {
+public class ResourceNotFoundException extends RuntimeException {
     
     public static final long serialVersionUID = 1L;
 
-    public EntityNotFoundException(String message) {
+    public ResourceNotFoundException(String message) {
         super(message);
     }
 
